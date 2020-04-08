@@ -1,0 +1,211 @@
+{
+    "profile": {
+        "full_name": "Shubham Deodia",
+        "email": "shubham.deodia@gmail.com",
+        "description": "I am an Engineer with experiences in a variety of fields, all of which synergistically improve my ability to creatively solve problems.",
+        "phone": "+357 95611720",
+        "location": "Limassol, Cyprus",
+        "headline": "Software Engineer",
+        "linkedIn":   "https://www.linkedin.com/in/shubham-deodia/",
+        "gitHub": "https://github.com/shubhamdeodia"
+      
+    },
+    "education": {
+        "label": "Education",
+        "contents": [
+            {
+                "title": "Bachelors of Engineering – Information Technology",
+                "organization": "Nagpur University",
+                "organization_url": null,
+                "description": "",
+                "start_date": "2009 April",
+                "end_date": "2013 June"
+            },
+            {
+                "title": "Higher Secondary Education (H.S.C)",
+                "organization": "Maharashtra State Board",
+                "organization_url": "",
+                "description": "",
+                "start_date": "2008 April",
+                "end_date": "2009 May"
+            },
+            {
+                "title": "Secondary Education (S.S.C)",
+                "organization": "Maharashtra State Board ",
+                "organization_url": "",
+                "description": "",
+                "start_date": "2006 April",
+                "end_date": "2007 May"
+            }
+        ]
+    },
+    "positions": {
+        "label": "Work experience",
+        "contents": [
+            {
+                "id": 1,
+                "title": "Software Engineer - Frontend",
+                "organization": "Webfleet Solutions",
+                "organization_logo": "https://media.webfleet.com/branding/wfs-abc/wfs-abc.svg",
+                "location": "Leipzig, Germany",
+                "organization_url": "https://www.webfleet.com/en_us/webfleet/",
+                "description": [
+                    {
+                        "id": 1,
+                        "text": "Owns and Maintain some of the modules in the sophisticated fleet tracking app."
+                    },
+                    {
+                        "id": 2,
+                        "text": "Code reviews and pair-programming"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Highly focussed on Unit and End-To-End test, using a TDD approach with the help of tools like Jest & Enzyme."
+                    },
+                    {
+                        "id": 4,
+                        "text": "Deep understanding of libraries used to render maps like Google Maps and TomTom Maps"
+                    },
+                    {
+                        "id": 5,
+                        "text": "Collaboration with the Product Owner and Design Team to understand their vision and drive the development in that direction."
+                    }
+                ],
+                "start_date": "2020-02-01",
+                "end_date": "Present"
+            },
+            {
+                "id": 2,
+                "title": "Software Developer - Frontend (Advanced)",
+                "organization": "BriteBill",
+                "location": "Limassol, Cyprus",
+                "organization_logo": "https://www.mcstan.ie/wp-content/uploads/2016/11/Brite-Bill.png",
+                "organization_url": "",
+                "description": [
+                    {
+                        "id": 1,
+                        "text": "Lead the design and development of Digital Bills for Telecom clients."
+                    },
+                    {
+                        "id": 2,
+                        "text": "Provided guidance on front-end strategies, standards, and technology decisions."
+                    },
+                    {
+                        "id": 3,
+                        "text": "Deep understanding of React and Redux life-cycle hooks and workflow."
+                    },
+                    {
+                        "id": 4,
+                        "text": "Played an important role in the migration of various UI components from AngularJS to React. I had written a blog about the process on the company's engineering blog portal.",
+                        "link": "https://engineering.britebill.com/2019/02/15/migrating-angularjs-react-2-dependency-injection.html"
+                    }
+                ],
+                "start_date": " 2018-10-01",
+                "end_date": "2020-01-01"
+            },
+            {
+                "id": 3,
+                "title": "Software Developer - Frontend (Experienced)",
+                "organization": "Amdocs",
+                "location": "Pune, India",
+                "organization_url": "",
+                "organization_logo": "https://www.amdocs.com/amdocsOmega/images/logos/amdocswhite.svg",          
+                "description": [
+                    {
+                        "id": 1,
+                        "text": "Designed and Developed various functional component for Telecom client's Care, Self-Care and Portal sites."
+                    },
+                    {
+                        "id": 2,
+                        "text": "Designed and Developed various standalone components to React and Redux like Auto-complete Search-bar, Registration forms, Compare Product table, etc."
+                    },
+                    {
+                        "id": 3,
+                        "text": "Keep up with evolving web technologies and best practices including HTML5, CSS3, SCSS, React and Redu"
+                    },
+                    {
+                        "id": 4,
+                        "text": "Self Learned Front-End Technologies to kick off my new career in UI Development"
+                    }
+                ],
+                "start_date": "2016-08-01",
+                "end_date": "2018-09-01"
+            },
+            {
+                "id": 4,
+                "title": "Software Developer - Java",
+                "organization": "Amdocs",
+                "location": "Pune, India",
+                "organization_logo": "https://www.amdocs.com/amdocsOmega/images/logos/amdocswhite.svg",
+                "organization_url": "",
+                "description": [
+                    {
+                        "id": 1,
+                        "text": "Worked on development of Offline ( Postpaid ) Mediation System for various Telecom Client."
+                    },
+                    {
+                        "id": 2,
+                        "text": "Working in Mediation Team, helped me gained Industry Standard knowledge of processes, frameworks, and tools e.g. Rally, Perforce, Diameter Protocol, Telecom Rating."
+                    },
+                    {
+                        "id": 3,
+                        "text": "Had conducted a week-long training for one of the clients ( in Ireland ) on usage and benefits of the product"
+                    },
+                    {
+                        "id": 4,
+                        "text": "Worked on various Line of Business for Mediation System like LTE, VoLTE, SMS, MMS, VOICE, DATA, Dropped Call and converting all Event Data Records into various formats like CSV and Binary format for Big Data and Revenue Assurance."
+                    }
+                ],
+                "start_date": "2013-07-01",
+                "end_date": "2016-07-01"
+            }
+        ]
+    },
+    "skills": [
+        {   
+            "id": 1,
+            "label": "Development",
+            "rating": 8,
+            "contents": [
+            {
+                "name": "ES6, Vanilla JS"
+            },
+            {
+                "name": "Jest/Enzyme"
+            },
+            {
+                "name": "Material-UI"
+            },
+            {
+                "name": "React | Redux | Hooks"
+            },
+            {
+                "name": "Node.js"
+            },
+            {
+                "name": "WebDriver.io"
+            },
+            {
+                "name": "HTML5 | CSS3 | SCSS"
+            },
+            {
+                "name": "Git"
+            }
+        ]},
+        {   
+            "id": 2,
+            "label": "Leadership",
+            "rating": 7,
+            "contents": [
+            {
+                "name": "Lean & Agile"
+            },
+            {
+                "name": "Empathetic"
+            },
+            {
+                "name": "Team Oriented"
+            }
+        ]}
+    ]
+}
