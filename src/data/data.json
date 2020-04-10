@@ -76,7 +76,7 @@
             },
             {
                 "id": 2,
-                "title": "Software Developer - Frontend (Advanced)",
+                "title": "Senior Software Developer - Frontend",
                 "organization": "BriteBill",
                 "location": "Limassol, Cyprus",
                 "organization_logo": "https://www.mcstan.ie/wp-content/uploads/2016/11/Brite-Bill.png",
@@ -88,14 +88,18 @@
                     },
                     {
                         "id": 2,
-                        "text": "Provided guidance on front-end strategies, standards, and technology decisions."
+                        "text": "Mentoring Junior Developer"
                     },
                     {
                         "id": 3,
-                        "text": "Deep understanding of React and Redux life-cycle hooks and workflow."
+                        "text": "Provided guidance on front-end strategies, standards, and technology decisions."
                     },
                     {
                         "id": 4,
+                        "text": "Deep understanding of React and Redux life-cycle hooks and workflow."
+                    },
+                    {
+                        "id": 5,
                         "text": "Played an important role in the migration of various UI components from AngularJS to React. I had written a blog about the process on the company's engineering blog portal.",
                         "link": "https://engineering.britebill.com/2019/02/15/migrating-angularjs-react-2-dependency-injection.html"
                     }
