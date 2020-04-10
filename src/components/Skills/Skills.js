@@ -1,7 +1,6 @@
+import { Box, Chip, Slider } from '@material-ui/core'
+import { createStyles, makeStyles } from '@material-ui/core/styles'
 import React from 'react'
-import { Slider } from '@material-ui/core'
-import { Box, Chip } from '@material-ui/core'
-import { makeStyles, createStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => {
     return createStyles({

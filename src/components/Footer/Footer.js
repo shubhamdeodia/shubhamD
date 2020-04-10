@@ -1,9 +1,8 @@
+import { AppBar, Box, Fab, Toolbar } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles'
+import WbIncandescentIcon from '@material-ui/icons/WbIncandescent'
 import React, { useContext } from 'react'
 import { ThemeDispatchContext } from '../../context/ThemeContext'
-
-import { Toolbar, AppBar, Fab, Box } from '@material-ui/core'
-import WbIncandescentIcon from '@material-ui/icons/WbIncandescent'
-import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => ({
     bottomAppBar: {

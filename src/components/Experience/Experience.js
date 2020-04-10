@@ -1,7 +1,7 @@
-import React from 'react'
-import ExperienceDuration from './ExperienceDuration'
-import ExperienceDescription from './ExperienceDescription'
 import { makeStyles } from '@material-ui/core/styles'
+import React from 'react'
+import ExperienceDescription from './ExperienceDescription'
+import ExperienceDuration from './ExperienceDuration'
 
 const useStyles = makeStyles((theme) => {
     return {

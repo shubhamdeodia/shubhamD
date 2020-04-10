@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function MobileHook () {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 640)

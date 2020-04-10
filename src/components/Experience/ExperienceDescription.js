@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
-import { ArrowRightRounded } from '@material-ui/icons'
-import { Typography, Box, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core'
-
-import { Skeleton } from '@material-ui/lab'
+import { Box, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
+import { ArrowRightRounded } from '@material-ui/icons'
+import { Skeleton } from '@material-ui/lab'
+import React from 'react'
 
 const useStyles = makeStyles((theme) => {
     return {

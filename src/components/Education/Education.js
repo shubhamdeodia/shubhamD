@@ -1,6 +1,6 @@
-import React from 'react'
 import { Box, Chip } from '@material-ui/core'
-import { makeStyles, createStyles } from '@material-ui/core/styles'
+import { createStyles, makeStyles } from '@material-ui/core/styles'
+import React from 'react'
 
 const useStyles = makeStyles((theme) => {
     return createStyles({
@@ -35,10 +35,16 @@ function Education (props) {
                     fontWeight='bold'
                     letterSpacing={1}
                     fontSize={24}>
+                    // eslint-disable-next-line react/prop-types
+                    // eslint-disable-next-line react/prop-types
+                    // eslint-disable-next-line react/prop-types
+                    // eslint-disable-next-line react/prop-types
+                    // eslint-disable-next-line react/prop-types
                     {education.label}
                 </Box>
                 <div className={classes.chips}>
                     {
+                        // eslint-disable-next-line react/prop-types
                         education.contents.map((content) => (
                             <Chip
                                 key={content.title}

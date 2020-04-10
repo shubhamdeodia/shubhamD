@@ -1,6 +1,6 @@
 import Typography from '@material-ui/core/Typography'
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 
 function TabPanel (props) {
     const { children, value, index, ...other } = props

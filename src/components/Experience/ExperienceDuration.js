@@ -1,15 +1,10 @@
-import React, { useState, useContext, memo, useCallback } from 'react'
-import { Tooltip } from '@material-ui/core'
-import { Box } from '@material-ui/core'
+import { Box, Card, Tooltip } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core/styles'
+import Skeleton from '@material-ui/lab/Skeleton'
 import classnames from 'classnames'
 import moment from 'moment'
-
+import React, { memo, useCallback, useContext, useState } from 'react'
 import { ThemeStateContext } from '../../context/ThemeContext'
-
-import { Card } from '@material-ui/core'
-import Skeleton from '@material-ui/lab/Skeleton'
-
-import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles((theme) => {
     return {

@@ -1,4 +1,4 @@
-import React, { useReducer, createContext } from 'react'
+import React, { createContext, useReducer } from 'react'
 
 const initialState = {
     isDarkMode: false
@@ -28,8 +28,5 @@ function ThemeContextProvider (props) {
     )
 }
 
-export {
-    ThemeContextProvider,
-    ThemeStateContext,
-    ThemeDispatchContext
-}
+export { ThemeContextProvider, ThemeStateContext, ThemeDispatchContext }
+
