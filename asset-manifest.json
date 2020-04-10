@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shubhamD/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/shubhamD/static/js/main.7236a2e5.chunk.js",
-    "main.js.map": "/shubhamD/static/js/main.7236a2e5.chunk.js.map",
+    "main.js": "/shubhamD/static/js/main.f23ba51f.chunk.js",
+    "main.js.map": "/shubhamD/static/js/main.f23ba51f.chunk.js.map",
     "runtime-main.js": "/shubhamD/static/js/runtime-main.df50f9f2.js",
     "runtime-main.js.map": "/shubhamD/static/js/runtime-main.df50f9f2.js.map",
     "static/js/2.a5a4a5f5.chunk.js": "/shubhamD/static/js/2.a5a4a5f5.chunk.js",
     "static/js/2.a5a4a5f5.chunk.js.map": "/shubhamD/static/js/2.a5a4a5f5.chunk.js.map",
     "index.html": "/shubhamD/index.html",
-    "precache-manifest.0c700776a6352388eb7fca9beb99b978.js": "/shubhamD/precache-manifest.0c700776a6352388eb7fca9beb99b978.js",
+    "precache-manifest.a875209a798f1b9cd2d7723d9a8a7905.js": "/shubhamD/precache-manifest.a875209a798f1b9cd2d7723d9a8a7905.js",
     "service-worker.js": "/shubhamD/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/shubhamD/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.a5a4a5f5.chunk.js.LICENSE.txt": "/shubhamD/static/js/2.a5a4a5f5.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.df50f9f2.js",
     "static/js/2.a5a4a5f5.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7236a2e5.chunk.js"
+    "static/js/main.f23ba51f.chunk.js"
   ]
 }
