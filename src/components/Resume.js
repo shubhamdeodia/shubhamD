@@ -88,13 +88,6 @@ export const Resume = (props) => {
         setIsLoading(false)
     }, 2000)
 
-    function a11yProps (index) {
-        return {
-            id: `simple-tab-${index}`,
-            'aria-controls': `simple-tabpanel-${index}`
-        }
-    }
-
     const [value, setValue] = React.useState(0)
 
     const handleChange = (event, newValue) => {
