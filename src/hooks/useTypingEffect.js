@@ -6,7 +6,6 @@ export default function useTypingEffect (message) {
         textData = [message]
     }
 
-    // eslint-disable-next-line no-unused-vars
     const [dataText, _] = useState(textData)
 
     const [text, setText] = useState('')

@@ -72,7 +72,6 @@ function ContactInfoAndDescription (props) {
 
     const classes = useStyles()
 
-    // eslint-disable-next-line no-unused-vars
     const [text, setSpeed] = useTypingEffect(['Stay at Home', 'Stay Safe', profile.description])
 
     return (
@@ -148,8 +147,6 @@ function ContactInfoAndDescription (props) {
                             letterSpacing={0}
                             style={{ marginLeft: 15 }}
                             fontSize={14}>
-                            // eslint-disable-next-line react/prop-types
-                            // eslint-disable-next-line react/prop-types
                             {profile.full_name}
                         </Box>
                     </div>

@@ -35,16 +35,10 @@ function Education (props) {
                     fontWeight='bold'
                     letterSpacing={1}
                     fontSize={24}>
-                    // eslint-disable-next-line react/prop-types
-                    // eslint-disable-next-line react/prop-types
-                    // eslint-disable-next-line react/prop-types
-                    // eslint-disable-next-line react/prop-types
-                    // eslint-disable-next-line react/prop-types
                     {education.label}
                 </Box>
                 <div className={classes.chips}>
                     {
-                        // eslint-disable-next-line react/prop-types
                         education.contents.map((content) => (
                             <Chip
                                 key={content.title}
