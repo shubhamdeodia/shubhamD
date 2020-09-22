@@ -3,9 +3,9 @@
         "full_name": "Shubham Deodia",
         "email": "shubham.deodia@gmail.com",
         "description": "I am an Engineer with experiences in a variety of fields, all of which synergistically improve my ability to creatively solve problems.",
-        "phone": "+357 95611720",
-        "location": "Limassol, Cyprus",
-        "headline": "Software Engineer",
+        "phone": "+91 9960401490",
+        "location": "Pune, India",
+        "headline": "Senior Software Developer",
         "linkedIn":   "https://www.linkedin.com/in/shubham-deodia/",
         "gitHub": "https://github.com/shubhamdeodia"
       
@@ -44,6 +44,26 @@
         "contents": [
             {
                 "id": 1,
+                "title": "Senior Software Developer",
+                "organization": "Nuance Communication",
+                "location": "Pune, India",
+                "organization_url": "https://www.nuance.com/index.html",
+                "organization_logo": "https://www.nuance.com/etc/clientlibs/nuance/images/assets/nuance-logo-129x26.png",          
+                "description": [
+                    {
+                        "id": 1,
+                        "text": "Leading the UI development of the SSO application within Nuance"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Transformed the Legacy Build Process (Gulp, Browserify) into sophisticated process using Webpack and Babel; Inclduing features such as splitchunks, caching the  babel config, Dynamic module loading, Dead code elimination."
+                    }
+                ],
+                "start_date": "2020-08-06",
+                "end_date": "Present"
+            },
+            {
+                "id": 2,
                 "title": "Software Engineer - Frontend",
                 "organization": "Webfleet Solutions",
                 "organization_logo": "https://media.webfleet.com/branding/wfs-abc/wfs-abc.svg",
@@ -72,10 +92,10 @@
                     }
                 ],
                 "start_date": "2020-02-01",
-                "end_date": "Present"
+                "end_date": "2020-07-17"
             },
             {
-                "id": 2,
+                "id": 3,
                 "title": "Senior Software Developer - Frontend",
                 "organization": "BriteBill",
                 "location": "Limassol, Cyprus",
@@ -144,10 +164,6 @@
                 "organization_url": "",
                 "description": [
                     {
-                        "id": 1,
-                        "text": "Worked on development of Offline ( Postpaid ) Mediation System for various Telecom Client."
-                    },
-                    {
                         "id": 2,
                         "text": "Working in Mediation Team, helped me gained Industry Standard knowledge of processes, frameworks, and tools e.g. Rally, Perforce, Diameter Protocol, Telecom Rating."
                     },
@@ -156,7 +172,7 @@
                         "text": "Had conducted a week-long training for one of the clients ( in Ireland ) on usage and benefits of the product"
                     },
                     {
-                        "id": 4,
+                        "id": 1,
                         "text": "Worked on various Line of Business for Mediation System like LTE, VoLTE, SMS, MMS, VOICE, DATA, Dropped Call and converting all Event Data Records into various formats like CSV and Binary format for Big Data and Revenue Assurance."
                     }
                 ],
@@ -171,6 +187,9 @@
             "label": "Development",
             "rating": 8,
             "contents": [
+            {
+                "name": "Webpack, Babel"
+            },
             {
                 "name": "ES6, Vanilla JS"
             },
