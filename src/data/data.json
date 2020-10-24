@@ -2,12 +2,14 @@
     "profile": {
         "full_name": "Shubham Deodia",
         "email": "shubham.deodia@gmail.com",
-        "description": "I am an Engineer with experiences in a variety of fields, all of which synergistically improve my ability to creatively solve problems.",
+        "description": "I am a passionate Front End Engineer (Senior) with over 7 years of experience in Software Development and customer interaction.Also, I have a strong penchant for usability.",
         "phone": "+91 9960401490",
         "location": "Pune, India",
         "headline": "Senior Software Developer",
         "linkedIn":   "https://www.linkedin.com/in/shubham-deodia/",
-        "gitHub": "https://github.com/shubhamdeodia"
+        "gitHub": "https://github.com/shubhamdeodia",
+        "blog": "https://blog.shubhamd.me",
+        "blogHeader": "blog.shubhamd.me"
       
     },
     "education": {
@@ -52,11 +54,23 @@
                 "description": [
                     {
                         "id": 1,
-                        "text": "Leading the UI development of the SSO application within Nuance"
+                        "text": "Leading the development of Single Sign-on Application (Nuance Enterprise Access Management), which helps a various organization gain different access level to its users for other application developed by Nuance for them."
                     },
                     {
                         "id": 2,
-                        "text": "Transformed the Legacy Build Process (Gulp, Browserify) into sophisticated process using Webpack and Babel; Inclduing features such as splitchunks, caching the  babel config, Dynamic module loading, Dead code elimination."
+                        "text": "Highly focussed usability and latest standards in the React ecosystem and Material UI."
+                    },
+                    {
+                        "id": 3,
+                        "text": "Created a sophisticated process using Webpack and Babel."
+                    },
+                    {
+                        "id": 4,
+                        "text": "Worked on features such as split chunks, caching the babel config, Dynamic module loading, Dead code elimination."
+                    },
+                    {
+                        "id": 5,
+                        "text": "Working on creation of component library using storybook."
                     }
                 ],
                 "start_date": "2020-08-06",
@@ -96,7 +110,7 @@
             },
             {
                 "id": 3,
-                "title": "Senior Software Developer - Frontend",
+                "title": "Software Developer - Frontend (Advanced)",
                 "organization": "BriteBill",
                 "location": "Limassol, Cyprus",
                 "organization_logo": "https://www.mcstan.ie/wp-content/uploads/2016/11/Brite-Bill.png",
@@ -104,19 +118,19 @@
                 "description": [
                     {
                         "id": 1,
-                        "text": "Lead the design and development of Digital Bills for Telecom clients."
+                        "text": "Lead the design (Architecture) and development of Digital Bills in the form Web Interface and Email Bills for a Client - Astro, Malaysia"
                     },
                     {
                         "id": 2,
-                        "text": "Mentoring Junior Developer"
+                        "text": "Close collaboration with the client's business team and solution architect to better understand the needs of the customer."
                     },
                     {
                         "id": 3,
-                        "text": "Provided guidance on front-end strategies, standards, and technology decisions."
+                        "text": "Developed web interface where user can view and pay their Telecom bills, Some complex components in the interface are - Data Visualization (Usage of SMS, Calls and Data, Payment Cycle). Ability to pay bills using the third-party payment gateway."
                     },
                     {
                         "id": 4,
-                        "text": "Deep understanding of React and Redux life-cycle hooks and workflow."
+                        "text": "Developed Billing Operations Dashboard from Scratch - which is used for customization of PDF bills generated for different telecom clients."
                     },
                     {
                         "id": 5,
@@ -128,7 +142,7 @@
                 "end_date": "2020-01-01"
             },
             {
-                "id": 3,
+                "id": 4,
                 "title": "Software Developer - Frontend (Experienced)",
                 "organization": "Amdocs",
                 "location": "Pune, India",
@@ -137,26 +151,26 @@
                 "description": [
                     {
                         "id": 1,
-                        "text": "Designed and Developed various functional component for Telecom client's Care, Self-Care and Portal sites."
+                        "text": "Self Learned Front-End Technologies to kick off my new career in UI Development through internal transfer."
                     },
                     {
                         "id": 2,
-                        "text": "Designed and Developed various standalone components to React and Redux like Auto-complete Search-bar, Registration forms, Compare Product table, etc."
+                        "text": "Developed various functional component for two major Telecom client's (Vodafone, Ireland & Telefonica, Chile) CRM Portals to create, edit/modify customer information and services they are subscribed to."
                     },
                     {
                         "id": 3,
-                        "text": "Keep up with evolving web technologies and best practices including HTML5, CSS3, SCSS, React and Redu"
+                        "text": "Gained global exposure by visiting the client's site in Ireland and Chile to support the development and deployment for the application."
                     },
                     {
                         "id": 4,
-                        "text": "Self Learned Front-End Technologies to kick off my new career in UI Development"
+                        "text": "Developed various standalone components in Angular and React like Auto-complete Search-bar, Registration forms, Custom Input field and forms, etc."
                     }
                 ],
                 "start_date": "2016-08-01",
                 "end_date": "2018-09-01"
             },
             {
-                "id": 4,
+                "id": 5,
                 "title": "Software Developer - Java",
                 "organization": "Amdocs",
                 "location": "Pune, India",
@@ -165,15 +179,15 @@
                 "description": [
                     {
                         "id": 2,
-                        "text": "Working in Mediation Team, helped me gained Industry Standard knowledge of processes, frameworks, and tools e.g. Rally, Perforce, Diameter Protocol, Telecom Rating."
+                        "text": "Collaborated with third party application team and client business team to sign-off the IDD's."
                     },
                     {
                         "id": 3,
-                        "text": "Had conducted a week-long training for one of the clients ( in Ireland ) on usage and benefits of the product"
+                        "text": "Development of Offline ( Postpaid ) Mediation System for various Telecom Clients which involves transforming Raw CDR and EDR using business logic in a format which can be used for billing."
                     },
                     {
                         "id": 1,
-                        "text": "Worked on various Line of Business for Mediation System like LTE, VoLTE, SMS, MMS, VOICE, DATA, Dropped Call and converting all Event Data Records into various formats like CSV and Binary format for Big Data and Revenue Assurance."
+                        "text": "Had conducted a week-long training for one of the clients ( at Ireland ) on usage and benefits of the product."
                     }
                 ],
                 "start_date": "2013-07-01",

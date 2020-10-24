@@ -2,6 +2,7 @@ import { Avatar, Box, Button } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import { Mail, Phone } from '@material-ui/icons'
 import GitHubIcon from '@material-ui/icons/GitHub'
+import BookIcon from '@material-ui/icons/Book';
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import React from 'react'
 import useTypingEffect from '../../hooks/useTypingEffect'
@@ -120,7 +121,7 @@ function ContactInfoAndDescription (props) {
                     ? <div className={classes.link}>
                         <Button
                             variant='contained'
-                            onClick={() => window.open(`${profile.linkedIn}`, '_blank')}
+                            onClick={() => window.open(`${profile.linkedIn}`, '_blank','noreferrer noopener')}
                             color='secondary'>
                             <LinkedInIcon />
                         </Button>
@@ -138,7 +139,7 @@ function ContactInfoAndDescription (props) {
                     ? <div className={classes.link}>
                         <Button
                             variant='contained'
-                            onClick={() => window.open(`${profile.gitHub}`, '_blank')}
+                            onClick={() => window.open(`${profile.gitHub}`,  '_blank','noreferrer noopener')}
                             color='secondary'>
                             <GitHubIcon />
                         </Button>
@@ -148,6 +149,24 @@ function ContactInfoAndDescription (props) {
                             style={{ marginLeft: 15 }}
                             fontSize={14}>
                             {profile.full_name}
+                        </Box>
+                    </div>
+                    : null
+                }
+                {profile.blog
+                    ? <div className={classes.link}>
+                        <Button
+                            variant='contained'
+                            onClick={() => window.open(`${profile.blog}`,  '_blank','noreferrer noopener')}
+                            color='secondary'>
+                            <BookIcon />
+                        </Button>
+                        <Box
+                            fontWeight='bold'
+                            letterSpacing={0}
+                            style={{ marginLeft: 15 }}
+                            fontSize={14}>
+                            {profile.blogHeader}
                         </Box>
                     </div>
                     : null
