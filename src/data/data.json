@@ -178,16 +178,16 @@
                 "organization_url": "",
                 "description": [
                     {
+                        "id": 1,
+                        "text": "Development of Offline (Postpaid) Mediation system for various Telecom Clients which involves tranforming raw CDRs and EDRs using business logic in a format which can be used for billing"
+                    },
+                    {
                         "id": 2,
-                        "text": "Collaborated with third party application team and client business team to sign-off the IDD's."
+                        "text": "Collaborated with third party application and client business team to sign-off the IDD's"
                     },
                     {
                         "id": 3,
-                        "text": "Development of Offline ( Postpaid ) Mediation System for various Telecom Clients which involves transforming Raw CDR and EDR using business logic in a format which can be used for billing."
-                    },
-                    {
-                        "id": 1,
-                        "text": "Had conducted a week-long training for one of the clients ( at Ireland ) on usage and benefits of the product."
+                        "text": "Had conducted a week-long training for one of the clients (at Ireland ) on usage and key features of the product."
                     }
                 ],
                 "start_date": "2013-07-01",
