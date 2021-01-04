@@ -48,13 +48,13 @@ function Footer () {
                         color='common.white'
                         fontSize={{ xs: '10px', sm: '10px', md: '12px', lg: '12px' }}
                         fontWeight='fontWeightBold'>
-                    Made with 💚 by Shubham D
+                        Made with <span role="img" aria-label="Heart emoji">💚</span> by Shubham D
                         <Box
                             textAlign='center'
                             color='common.white'
                             fontSize={{ xs: '10px', sm: '10px', md: '12px', lg: '12px' }}
                             fontWeight='fontWeightBold'>
-                    Design <a target='_blank' rel='noopener noreferrer' href='https://www.sketchappsources.com/free-source/1137-material-design-resume-style-sketch-freebie-resouces.html'>Inspiration</a>
+                     <a target='_blank' rel='noopener noreferrer' href='https://www.sketchappsources.com/free-source/1137-material-design-resume-style-sketch-freebie-resouces.html'>Design Inspiration</a>
 
                         </Box>
                     </Box>

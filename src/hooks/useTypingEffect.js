@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 export default function useTypingEffect (message) {
     let textData = message
+    
     if (!Array.isArray(message)) {
         textData = [message]
     }

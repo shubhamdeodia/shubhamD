@@ -18,7 +18,8 @@ const ThemeStateContext = createContext()
 const ThemeDispatchContext = createContext()
 
 function ThemeContextProvider (props) {
-    const [themeState, dispatch] = useReducer(themeReducer, initialState)
+    const [themeState, dispatch] = useReducer(themeReducer, initialState);
+
     return (
         <ThemeStateContext.Provider value={themeState}>
             <ThemeDispatchContext.Provider value={dispatch}>
