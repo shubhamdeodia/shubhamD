@@ -56,23 +56,21 @@ function ExperienceDuration (props) {
 
     const { start_date, end_date } = position
 
-    const getDifference = () => {
+    
+
+    const getDifference = useCallback(() => {
         let endDate = moment(end_date)
         if (end_date.toLowerCase() === 'present') {
             endDate = moment()
         }
+        const yearsDifference = moment(endDate).diff(start_date, 'years')
+   
+        const monthDifference = moment(endDate).diff(start_date, 'months')
+        return Number(yearsDifference + '.' + Math.ceil(monthDifference % 12))
+    }, [end_date, start_date])
 
-        const monthDifference = moment(start_date).diff(endDate, 'months', true)
-        const absMonth = Math.abs(Math.floor(monthDifference))
-        return absMonth
-    }
 
-    const memoizedCallback = useCallback(
-        () => getDifference(),
-        [start_date, end_date]
-    )
-
-    const duration = memoizedCallback()
+    const duration = getDifference()
 
     if (isLoading) {
         return experienceDurationSkeleton
@@ -97,14 +95,14 @@ function ExperienceDuration (props) {
                     color='common.white'
                     fontSize={{ xs: '26px', sm: '30px', md: '32px', lg: '36px' }}
                     fontWeight='fontWeightBold'>
-                    { Math.abs(Math.floor(duration > 12 ? duration / 12 : duration % 12))}
+                    { duration < 1 ? Number((duration + "").split(".")[1]) + 1 : duration  }
                 </Box>
                 <Box
                     textAlign='center'
                     color='common.white'
                     fontSize={{ xs: '14px', sm: '16px', md: '18px', lg: '18px' }}
                     fontWeight='fontWeightBold'>
-                    { duration > 12 ? 'Years' : 'Months' }
+                    { duration > 1 ? 'Years' : 'Months' }
                 </Box>
             </Card>
         </Tooltip>
