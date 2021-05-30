@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => {
 })
 
 function Education (props) {
-    const { position, isLoading, education } = props
+    const {  education } = props
     const classes = useStyles()
 
     return (

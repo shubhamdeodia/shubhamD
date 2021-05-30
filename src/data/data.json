@@ -2,20 +2,19 @@
     "profile": {
         "full_name": "Shubham Deodia",
         "email": "shubham.deodia@gmail.com",
-        "description": "I have more than 7 years of experience as a Software Developer, I am always inspired and trying to learn new skills, all of which synergistically improve my ability to creatively solve problems.",
+        "description": "I have more than 8 years of experience as a Software Developer, I am always inspired and trying to learn new skills, all of which synergistically improve my ability to creatively solve problems.",
         "phone": "+91 9960401490",
         "location": "Pune, India",
-        "headline": "Senior Software Developer",
-        "linkedIn":   "https://www.linkedin.com/in/shubham-deodia/",
+        "headline": "Principal Front-End Engineer",
+        "linkedIn": "https://www.linkedin.com/in/shubham-deodia/",
         "gitHub": "https://github.com/shubhamdeodia",
         "blog": "https://blog.shubhamd.me",
         "blogHeader": "blog.shubhamd.me"
-      
+
     },
     "education": {
         "label": "Education",
-        "contents": [
-            {
+        "contents": [{
                 "title": "Bachelors of Engineering – Information Technology",
                 "organization": "Nagpur University",
                 "organization_url": null,
@@ -43,34 +42,28 @@
     },
     "positions": {
         "label": "Work experience",
-        "contents": [
-            {
+        "contents": [{
                 "id": 1,
-                "title": "Senior Software Developer",
+                "title": "Principal Front-End Engineer",
                 "organization": "Nuance Communication",
                 "location": "Pune, India",
                 "organization_url": "https://www.nuance.com/index.html",
-                "organization_logo": "https://www.nuance.com/content/dam/nuance/internal/images/assets/nuance-logo-129x26.png",          
-                "description": [
-                    {
+                "organization_logo": "https://www.nuance.com/content/dam/nuance/internal/images/assets/nuance-logo-129x26.png",
+                "description": [{
                         "id": 1,
                         "text": "Leading the development of Single Sign-on Application (Nuance Enterprise Access Management), which helps a various organization gain different access level to its users for other application developed by Nuance for them."
                     },
                     {
                         "id": 2,
-                        "text": "Highly focussed usability and latest standards in the React ecosystem and Material UI."
+                        "text": "I am also leading a project where our focus is to shift our test paradigm to BDD;I have set up complete infrastructure using Playwright and Cucumber to facilitate this approach. Conducting strategic planning for the projects "
                     },
                     {
                         "id": 3,
-                        "text": "Created a sophisticated process using Webpack and Babel."
+                        "text": "Making sure Projects are scalable and performant along with best practices."
                     },
                     {
                         "id": 4,
-                        "text": "Worked on features such as split chunks, caching the babel config, Dynamic module loading, Dead code elimination."
-                    },
-                    {
-                        "id": 5,
-                        "text": "Working on creation of component library using storybook."
+                        "text": "Formed/Leading the Guild of Web Dev -Team of software developers which decides on various new standards and process on front end centric topics."
                     }
                 ],
                 "start_date": "2020-07-06",
@@ -83,8 +76,7 @@
                 "organization_logo": "https://media.webfleet.com/branding/wfs-abc/wfs-abc.svg",
                 "location": "Leipzig, Germany",
                 "organization_url": "https://www.webfleet.com/en_us/webfleet/",
-                "description": [
-                    {
+                "description": [{
                         "id": 1,
                         "text": "Owned and maintained some of the modules in the sophisticated fleet tracking app."
                     },
@@ -115,8 +107,7 @@
                 "location": "Limassol, Cyprus",
                 "organization_logo": "https://www.mcstan.ie/wp-content/uploads/2016/11/Brite-Bill.png",
                 "organization_url": "",
-                "description": [
-                    {
+                "description": [{
                         "id": 1,
                         "text": "Lead the design (Architecture) and development of Digital Bills in the form Web Interface and Email Bills for a Client - Astro, Malaysia"
                     },
@@ -147,9 +138,8 @@
                 "organization": "Amdocs",
                 "location": "Pune, India",
                 "organization_url": "",
-                "organization_logo": "https://www.amdocs.com/amdocsOmega/images/logos/amdocswhite.svg",          
-                "description": [
-                    {
+                "organization_logo": "https://www.amdocs.com/amdocsOmega/images/logos/amdocswhite.svg",
+                "description": [{
                         "id": 1,
                         "text": "Self Learned Front-End Technologies to kick off my new career in UI Development through internal transfer."
                     },
@@ -176,8 +166,7 @@
                 "location": "Pune, India",
                 "organization_logo": "https://www.amdocs.com/amdocsOmega/images/logos/amdocswhite.svg",
                 "organization_url": "",
-                "description": [
-                    {
+                "description": [{
                         "id": 1,
                         "text": "Development of Offline (Postpaid) Mediation system for various Telecom Clients which involves tranforming raw CDRs and EDRs using business logic in a format which can be used for billing"
                     },
@@ -195,54 +184,53 @@
             }
         ]
     },
-    "skills": [
-        {   
+    "skills": [{
             "id": 1,
             "label": "Development",
             "rating": 8,
-            "contents": [
-            {
-                "name": "Webpack, Babel"
-            },
-            {
-                "name": "ES6, Vanilla JS"
-            },
-            {
-                "name": "Jest/Enzyme"
-            },
-            {
-                "name": "Material-UI"
-            },
-            {
-                "name": "React | Redux | Hooks"
-            },
-            {
-                "name": "Node.js"
-            },
-            {
-                "name": "WebDriver.io"
-            },
-            {
-                "name": "HTML5 | CSS3 | SCSS"
-            },
-            {
-                "name": "Git"
-            }
-        ]},
-        {   
+            "contents": [{
+                    "name": "Webpack, Babel"
+                },
+                {
+                    "name": "ES6, Vanilla JS"
+                },
+                {
+                    "name": "Jest/Enzyme"
+                },
+                {
+                    "name": "Material-UI"
+                },
+                {
+                    "name": "React | Redux | Hooks"
+                },
+                {
+                    "name": "Node.js"
+                },
+                {
+                    "name": "WebDriver.io"
+                },
+                {
+                    "name": "HTML5 | CSS3 | SCSS"
+                },
+                {
+                    "name": "Git"
+                }
+            ]
+        },
+        {
             "id": 2,
             "label": "Leadership",
             "rating": 7,
-            "contents": [
-            {
-                "name": "Lean & Agile"
-            },
-            {
-                "name": "Empathetic"
-            },
-            {
-                "name": "Team Oriented"
-            }
-        ]}
+            "contents": [{
+                    "name": "Lean & Agile"
+                },
+                {
+                    "name": "Empathetic"
+                },
+                {
+                    "name": "Team Oriented"
+                }
+            ]
+        }
     ]
 }

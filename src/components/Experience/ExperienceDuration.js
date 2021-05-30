@@ -60,13 +60,16 @@ function ExperienceDuration (props) {
 
     const getDifference = useCallback(() => {
         let endDate = moment(end_date)
+        
+
         if (end_date.toLowerCase() === 'present') {
             endDate = moment()
         }
         const yearsDifference = moment(endDate).diff(start_date, 'years')
-   
+    
         const monthDifference = moment(endDate).diff(start_date, 'months')
-        return Number(yearsDifference + '.' + Math.ceil(monthDifference % 12))
+
+        return (yearsDifference + '.' + monthDifference % 12)
     }, [end_date, start_date])
 
 
@@ -95,7 +98,7 @@ function ExperienceDuration (props) {
                     color='common.white'
                     fontSize={{ xs: '26px', sm: '30px', md: '32px', lg: '36px' }}
                     fontWeight='fontWeightBold'>
-                    { duration < 1 ? Number((duration + "").split(".")[1]) : duration  }
+                    { duration < 1 ? Number((duration + "").split(".")[1]) : Number((duration + "").split(".")[1]) === 0 ?  Number((duration + "").split(".")[0]):  duration}
                 </Box>
                 <Box
                     textAlign='center'

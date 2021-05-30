@@ -69,7 +69,7 @@ const useStyles = makeStyles((theme) => {
 })
 
 function ContactInfoAndDescription (props) {
-    const { isLoading, profile } = props
+    const { profile } = props
 
     const classes = useStyles()
 

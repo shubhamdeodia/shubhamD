@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => {
 })
 
 function Skills (props) {
-    const { position, isLoading, skills } = props
+    const {  skills } = props
     
     const classes = useStyles()
 
